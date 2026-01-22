@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #19a2ae, #6bd0d8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 560px;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+.card-header {
+  height: 260px;
+  background: #41c7c7; 
+  position: relative;
+}
+.avatar {
+  width: 120px;
+  height: 110px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  position: absolute;
+  bottom: -55px;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+}
+.card-body {
+  margin-top: 70px;
+}
+
+.card-body h2 {
+  font-size: 20px;
+  color: #2e3349;
+}
+
+.card-body span {
+  font-weight: 400;
+  color: #6b7082;
+}
+
+.location {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #6b7082;
+}
+.follow-btn {
+  margin-top: 18px;
+  padding: 10px 30px;
+  background: #19a2ae;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.follow-btn:hover {
+  background: #128a93;
+}
+.card-footer {
+  margin-top: 25px;
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #eaeaea;
+}
+
+.stat h3 {
+  font-size: 18px;
+  color: #2e3349;
+}
+
+.stat p {
+  font-size: 12px;
+  color: #6b7082;
+  letter-spacing: 1px;
+}

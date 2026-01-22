@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: #f5f6ff;
+  color: #13183f;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 80px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 12px 28px;
+  border-radius: 28px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btn-dark {
+  background: #13183f;
+  color: #fff;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #ff6f48, #f02aa6);
+  color: #fff;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  gap: 40px;
+}
+
+.hero-content {
+  max-width: 520px;
+}
+
+.hero-title {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.hero-text {
+  margin-bottom: 32px;
+  line-height: 1.6;
+  color: #83869a;
+}
+
+/* HERO IMAGE */
+.hero-image {
+  position: relative;
+}
+
+.hero-img {
+  width: 320px;
+  border-radius: 50%;
+}
+
+/* BADGES */
+.badge {
+  position: absolute;
+  background: #ffffff;
+  padding: 14px 18px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+  font-size: 14px;
+}
+
+.badge span {
+  display: block;
+  color: #83869a;
+}
+
+.badge strong {
+  font-size: 20px;
+  color: #13183f;
+}
+
+.badge-members {
+  top: 40px;
+  right: -30px;
+}
+
+.badge-courses {
+  bottom: 20px;
+  left: -40px;
+}
+
+/* COURSES */
+.courses {
+  padding: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.course {
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.course h4 {
+  margin-bottom: 16px;
+}
+
+.course p {
+  margin-bottom: 24px;
+  color: #83869a;
+  line-height: 1.5;
+}
+
+.course-highlight {
+  background: linear-gradient(135deg, #ff6f48, #f02aa6);
+  color: #ffffff;
+}
+
+.course-btn {
+  background: none;
+  border: none;
+  color: #f02aa6;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+  background: #13183f;
+  color: #ffffff;
+  padding: 32px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
